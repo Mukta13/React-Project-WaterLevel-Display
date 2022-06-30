@@ -1,13 +1,3 @@
-## Running React on Repl.it
+## WaterLevel
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
-
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
-
-Using the two in conjunction is one of the fastest ways to build a web app.
-
-### Getting Started
-- Hit run
-- Edit [App.jsx](#src/App.jsx) and watch it live update!
-
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the `.replit` file.
+A react project that implements a water level chart display for severak months which can be seleceted by the user.<img width="777" alt="Screenshot 2022-06-29 at 6 45 01 PM" src="https://user-images.githubusercontent.com/61094541/176574841-73508ce9-471e-4f05-af1c-e572822d0fe8.png">
