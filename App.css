@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+
+#container {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#allBody {
+  display: flex;
+  justify-content: space-between;
+  flex: 1 1 auto;
+}
+
+#blue_stripe {
+  margin-top: -50px;
+  background-color:rgb(66, 145, 152);
+   position: absolute;
+  z-index: -1;
+  border: 1px;
+  width: 100%;
+  height: 110px;
+ 
+
+}
+
+#title {
+  margin-top: 40px;
+  margin-bottom: 70px;
+  font-weight: bold;
+  font-size: 28px;
+  color: white;
+  font-family: Inter, serif;
+  
+}
+
+#textDiv {
+   margin-right: 40px;
+  width: 60%;
+  font-family: Inter, serif;
+  font-size: 16px;
+ 
+}
+
+#imageDiv {
+  width: 40%;
+}
+
+#WaterImg {
+  width: 100%;
+}
+
+a {
+  color: rgb(120, 199, 227);
+  text-decoration: none;
+}
+
+#seeMore {
+  background-color: rgb(66, 145, 152);
+  color: white;
+  font-size: 16px;
+  padding: 10px 40px 10px 40px;
+  border-radius: 5px;
+  border-style: none;
+  font-family: Inter, serif;
+  font-weight: medium;
+  
+}
+
+#textbody {
+  margin-top: 0em;
+}
+
+#caption {
+  margin-top: 10px;
+  font-family: Inter, serif;
+  font-weight: regular;
+  font-size: 12px;
+}
+
+#chartDisplay {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.ChartDisplayArea {
+  width: 45%;
+  height: 300px;
+}
+
+.caption {
+  width: 100%;
+}
+
+.MonthText {
+  color: rgb(66, 145, 152);
+  font-weight: bold;
+}
+
+#dateDisplay {
+  margin-top: 10px;
+  padding: 5px 5px 5px 15px;
+   border: 1px solid lightgray;
+  width: 50%;
+  color: gray;
+ 
+  
+}
+@media (max-width: 900px) {
+  #allBody {
+    flex-direction: column-reverse;
+    align-items: center;
+    
+    
+  }
+
+#title {
+  margin-top: 20px;
+}
+
+#blue_stripe {
+  height:125px;
+}
+  
+  #imageDiv{
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+  #textbody {
+    text-align: justify;
+    
+
+  }
+  #seeMore {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  #textDiv {
+    width: 100%;
+    margin-right: 0px;
+  }
+  #chartDisplay {
+    flex-direction: column-reverse;
+    
+  }
+  .ChartDisplayArea {
+    width: 100%;
+    text-align: justify;
+  }
+  .MonthText {
+    margin-top: 30px;
+  }
+  #dateDisplay {
+    
+    
+  }
+  #title {
+    text-align: center;
+    
+  }
+  
+}
+
+@media (max-width: 350px) {
+  #blue_stripe{
+    height: 18.8%;
+  }
+}
